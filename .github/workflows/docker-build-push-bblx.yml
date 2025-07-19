@@ -28,7 +28,7 @@ jobs:
       # 提取仓库名称作为镜像名  
       - name: Extract repository name  
         id: repo-name  
-        run: echo "REPO_NAME=bblx" >> $GITHUB_OUTPUT  
+        run: echo "REPO_NAME=pigracing/bblx" >> $GITHUB_OUTPUT  
       
       # 提取 Git tag 作为版本号  
       - name: Extract tag version  
